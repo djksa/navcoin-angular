@@ -5,7 +5,7 @@ import { EventEmitter } from '@angular/core';
 
 //@TODO: store JWT token
 //@TODO: parse JWT token when calling API
-//@TODO: remvoe console logs
+//@TODO: remove console logs
 //@TODO: handle errors
 //@TODO: lock out the other routes
 

@@ -18,3 +18,10 @@
 .overview .address-string {
   margin: 10px 0;
 }
+
+.overview-qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
