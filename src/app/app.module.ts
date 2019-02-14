@@ -47,6 +47,7 @@ import { ClipboardModule } from 'ngx-clipboard';
 // partials
 import { NavbarComponent } from './navbar/navbar.component';
 import { CFundPaymentRequestListComponent } from './overview/cfund-payment-req/cfund-payment-req-list.component';
+import { LatestTransactionsComponent } from './overview/latest-transactions-req/latest-transactions.component';
 
 export function tokenGetter() {
   return localStorage.getItem('access_token');
@@ -63,6 +64,8 @@ export function tokenGetter() {
     UiPasswordComponent,
     PageNotFoundComponent,
     CFundPaymentRequestListComponent,
+    LatestTransactionsComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -27,16 +27,7 @@
       <p>Last 365 days: <span *ngIf=wallet>{{ wallet.staking.year }}</span> NAV</p>
     </mz-card-content>
   </mz-card>
-  <mz-card
-    class="overview-card grey lighten-5"
-    [horizontal]="true">
-    <mz-card-title>
-      Latest Transactions
-    </mz-card-title>
-    <mz-card-content>
 
-    </mz-card-content>
-  </mz-card>
   <mz-card
   class="overview-card deposit-card grey lighten-5"
   [horizontal]="true">
@@ -78,16 +69,6 @@
       </form>
     </mz-card-content>
   </mz-card>
-  <mz-card
-    class="overview-card grey lighten-5"
-    [horizontal]="true">
-    <mz-card-title>
-      C.Fund Proposals
-    </mz-card-title>
-    <mz-card-content>
+  <latest-transactions-req-list class="overview-card"></latest-transactions-req-list>  
 
-    </mz-card-content>
-  </mz-card>
-  
-  <cfund-payment-req-list class="overview-card"></cfund-payment-req-list>
 </div>
